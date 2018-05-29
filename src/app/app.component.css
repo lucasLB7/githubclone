@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Butterfly+Kids');
+
+/* font-family: 'Bowlby One SC', cursive;
+font-family: 'Butterfly Kids', cursive; */
+
+.header{
+font-family: 'Bowlby One SC', cursive;
+font-size: 40px;
+
+}
+
+.style{
+    background-color: red;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-size: 19px; 
+}
+.centered{
+  margin-left: auto; 
+  margin-right: auto;
+  width:50%
+}
+
+.btn{
+  font-family: 'Butterfly Kids', cursive;
+
+}

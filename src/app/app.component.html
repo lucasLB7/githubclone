@@ -1,0 +1,32 @@
+<div class ="container">
+<div class="header">
+    <h1>Gitbook</h1>
+    <h3>Find git hub repositories quick and Easy</h3>
+</div>
+<div class="centered">
+<div class="input">
+    <input type="text" class="form-control" [(ngModel)]="gitName" placeholder="Find a repository">
+
+    <br>
+    
+    <button type="button" class="btn style" (click)="searchGitName()">Search</button>
+
+</div>
+</div>
+
+
+
+
+<div class="animated-entry">
+    <div class="lookupDisplay" *ngIf="gitHubDetails">
+        <img align="center" [src]="gitHubDetails.avatar_url" alt="">
+    </div>
+
+    <div class="results" *ngIf="gitHubDetails">
+        <h5>User name: {{gitHubDetails.name}}</h5>
+        <h5>company: {{gitHubDetails.company}}</h5>
+        <h5>User id: {{gitHubDetails.id}}</h5>
+        <h5>url:<a href={{gitHubDetails.url}}>{{gitHubDetails.url}}</a></h5>
+    </div>
+</div>
+</div>

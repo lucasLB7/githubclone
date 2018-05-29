@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55) url('assets/img/bg.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 15px 10px 15px;
+    min-height: 640px;
+}
