@@ -17,7 +17,8 @@ To run locally,clone the repository then run `ng serve` on the terminal.Make sur
 Input your github username in the search bar.Press enter.Your details will be displayed.
 
  ##  Contributors
- Joyce Wambui
+Lucas lambert
+
 
 ##  Licence
 MIT
